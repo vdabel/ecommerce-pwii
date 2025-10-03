@@ -14,7 +14,7 @@ const MainFooter = () => {
   return (
     <footer>
       <div className="max-w-7xl m-auto pt-25 text-(--color-text)">
-        <div className='flex flex-row pb-22'>
+        <div className='flex flex-row pb-22 border-b-1 border-(--color-text)/25'>
           <div className='w-1/2 flex flex-col gap-8'>
             <img src={logo} alt="logo" className='w-60 object-contain' />
             <p className='pr-35'>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
@@ -58,7 +58,7 @@ const MainFooter = () => {
           </div>
         </div>
 
-        <div>
+        <div className='flex flex-row justify-between my-8'>
           <div>
             <p>© 2025. All Rights Reserved.</p>
           </div>
