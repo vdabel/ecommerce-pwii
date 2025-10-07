@@ -1,5 +1,5 @@
 import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/react'
-import { Bars3Icon, BellIcon, MagnifyingGlassIcon, ShoppingBagIcon, XMarkIcon } from '@heroicons/react/24/outline'
+import { Bars3Icon, MagnifyingGlassIcon, ShoppingBagIcon, XMarkIcon } from '@heroicons/react/24/outline'
 import logo from './../assets/img/logo-retina.png'
 import './MainHeader.css'
 
