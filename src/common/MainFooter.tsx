@@ -58,7 +58,7 @@ const MainFooter = () => {
           </div>
         </div>
 
-        <div className='flex flex-row justify-between my-8'>
+        <div className='flex flex-row justify-between py-8'>
           <div>
             <p>© 2025. All Rights Reserved.</p>
           </div>

@@ -1,5 +1,5 @@
 import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/react'
-import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
+import { Bars3Icon, BellIcon, MagnifyingGlassIcon, ShoppingBagIcon, XMarkIcon } from '@heroicons/react/24/outline'
 import logo from './../assets/img/logo-retina.png'
 import './MainHeader.css'
 
@@ -61,14 +61,20 @@ const MainHeader = () => {
                 </div>
               </div>
 
-              <div className="absolute inset-y-0 right-0 flex items-center pr-2 xl:w-1/5 xl:static xl:inset-auto xl:pr-0">
+              <div className="absolute inset-y-0 right-0 flex items-center justify-end gap-5 pr-2 xl:w-1/5 xl:static xl:inset-auto xl:pr-0">
                 <button
                   type="button"
-                  className="relative rounded-full p-1 text-gray-400 hover:text-white focus:outline-2 focus:outline-offset-2 focus:outline-indigo-500"
+                  className="relative rounded-full text-(--color-title) hover:text-(--color-text) focus:outline-2 focus:outline-offset-2 focus:outline-indigo-500"
                 >
                   <span className="absolute -inset-1.5" />
-                  <span className="sr-only">View notifications</span>
-                  <BellIcon aria-hidden="true" className="size-6" />
+                  <MagnifyingGlassIcon aria-hidden="true" className="size-6" />
+                </button>
+                <button
+                  type="button"
+                  className="relative rounded-full text-(--color-title) hover:text-(--color-text) focus:outline-2 focus:outline-offset-2 focus:outline-indigo-500"
+                >
+                  <span className="absolute -inset-1.5" />
+                  <ShoppingBagIcon aria-hidden="true" className="size-6" />
                 </button>
               </div>
 

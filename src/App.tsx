@@ -1,11 +1,11 @@
 import './App.css'
-import MainFooter from './common/MainFooter'
+import MainHeader from './common/MainHeader'
 
 function App() {
 
   return (
     <>
-      <MainFooter />
+      <MainHeader />
     </>
   )
 }
