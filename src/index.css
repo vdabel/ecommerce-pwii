@@ -5,11 +5,14 @@
   --color-white: #FFFFFF;
   --color-black: #000000;
   --color-title: #000709;
+  --color-subtitle: #B3B5B6;
   --color-text: #828485;
   --color-hover: #C32A05;
   --color-bg-1: rgb(225, 238, 183);
   --color-btn-1: #2875B5;
   --color-btn-1-h: #1B65A2;
+  --font-primary: 'Inter Tight', sans-serif;
+  --font-secondary: 'Inter', sans-serif;
 }
 
 body {
