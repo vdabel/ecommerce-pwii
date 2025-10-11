@@ -5,6 +5,7 @@ import logoClient2 from '../assets/img/logo-client-2.png'
 import logoClient3 from '../assets/img/logo-client-3.png'
 import logoClient4 from '../assets/img/logo-client-4.png'
 import logoClient5 from '../assets/img/logo-client-5.png'
+import logoClient6 from '../assets/img/logo-client-6.png'
 
 const Lanzamientos = () => {
   return (
@@ -32,9 +33,26 @@ const Lanzamientos = () => {
           </div>
         </div>
       </section>
-      <section className='max-w-6xl flex'>
-        <div>
-
+      <section className='w-full flex justify-center'>
+        <div className='flex gap-15'>
+          <div>
+            <img src={logoClient1} alt="" className='grayscale[0]' />
+          </div>
+          <div>
+            <img src={logoClient2} alt="" />
+          </div>
+          <div>
+            <img src={logoClient3} alt="" />
+          </div>
+          <div>
+            <img src={logoClient4} alt="" />
+          </div>
+          <div>
+            <img src={logoClient5} alt="" />
+          </div>
+          <div>
+            <img src={logoClient6} alt="" />
+          </div>
         </div>
       </section>
     </>
