@@ -5,6 +5,7 @@ import Destacados from "../home/Destacados"
 import Features from "../home/Features"
 import Lanzamientos from "../home/Lanzamientos"
 import MainBanner from "../home/MainBanner"
+import Suscripcion from "../home/Suscripcion"
 import Tendencias from "../home/Tendencias"
 
 const Inicio = () => {
@@ -17,6 +18,7 @@ const Inicio = () => {
       <Categorias />
       <Features />
       <Destacados />
+      <Suscripcion />
       <MainFooter />
     </main>
   )
