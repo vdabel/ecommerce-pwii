@@ -1,5 +1,8 @@
 import MainFooter from "../common/MainFooter"
 import BannerTendencias from "../home/BannerTendencias"
+import Categorias from "../home/Categorias"
+import Destacados from "../home/Destacados"
+import Features from "../home/Features"
 import Lanzamientos from "../home/Lanzamientos"
 import MainBanner from "../home/MainBanner"
 import Tendencias from "../home/Tendencias"
@@ -11,6 +14,9 @@ const Inicio = () => {
       <Tendencias />
       <BannerTendencias />
       <Lanzamientos />
+      <Categorias />
+      <Features />
+      <Destacados />
       <MainFooter />
     </main>
   )

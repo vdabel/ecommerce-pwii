@@ -33,25 +33,25 @@ const Lanzamientos = () => {
           </div>
         </div>
       </section>
-      <section className='w-full flex justify-center'>
-        <div className='flex gap-15'>
+      <section className='w-full flex justify-center py-30'>
+        <div className='flex gap-7.5'>
           <div>
-            <img src={logoClient1} alt="" className='grayscale[0]' />
+            <img src={logoClient1} alt="" className='opacity-30 hover:opacity-100 duration-300' />
           </div>
           <div>
-            <img src={logoClient2} alt="" />
+            <img src={logoClient2} alt="" className='opacity-30 hover:opacity-100 duration-300' />
           </div>
           <div>
-            <img src={logoClient3} alt="" />
+            <img src={logoClient3} alt="" className='opacity-30 hover:opacity-100 duration-300' />
           </div>
           <div>
-            <img src={logoClient4} alt="" />
+            <img src={logoClient4} alt="" className='opacity-30 hover:opacity-100 duration-300' />
           </div>
           <div>
-            <img src={logoClient5} alt="" />
+            <img src={logoClient5} alt="" className='opacity-30 hover:opacity-100 duration-300' />
           </div>
           <div>
-            <img src={logoClient6} alt="" />
+            <img src={logoClient6} alt="" className='opacity-30 hover:opacity-100 duration-300' />
           </div>
         </div>
       </section>
