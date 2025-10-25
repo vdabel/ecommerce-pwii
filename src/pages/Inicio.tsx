@@ -21,7 +21,6 @@ const Inicio = () => {
       <Destacados />
       <Suscripcion />
       <BannerBottom />
-      <MainFooter />
     </main>
   )
 }
