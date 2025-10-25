@@ -1,0 +1,24 @@
+.tabla-servicio {
+  border-collapse: collapse;
+  width: 100%;
+  text-align: left;
+}
+
+.tabla-servicio th, .tabla-servicio td {
+  border: 1px solid #202020;
+  padding: 8px;
+}
+
+.tabla-servicio thead {
+  background-color: var(--color-text);
+  color: var(--color-white);
+}
+
+.tabla-servicio tbody tr:nth-child(even) {
+  background-color: var(--color-red-100);
+}
+
+.tabla-servicio tbody tr:hover {
+  background-color: #e19393;
+  transition: all 0.3s ease;
+}

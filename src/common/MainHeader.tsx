@@ -4,8 +4,8 @@ import logo from './../assets/img/logo-retina.png'
 import './MainHeader.css'
 
 const navigation = [
-  { name: 'Home', href: '#', current: true },
-  { name: 'About', href: '#', current: false },
+  { name: 'Home', href: '/', current: true },
+  { name: 'About', href: '/about', current: false },
   { name: 'Shop', href: '#', current: false },
   { name: 'Blog', href: '#', current: false },
   { name: 'Contact', href: '#', current: false }
