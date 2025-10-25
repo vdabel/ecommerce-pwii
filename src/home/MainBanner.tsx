@@ -12,7 +12,7 @@ const MainBanner = () => {
             <h1 className="text-9xl font-medium -tracking-[2.6px] title-banner">Trendy apparel</h1>
           </div>
           <div className="mb-10">
-            <p className="text-lg p-banner">Enhance your style with our newest clothing line.</p>
+            <p className="text-lg p-banner">pa2Enhance your style with our newest clothing line.</p>
           </div>
           <a href="#" className="px-10 py-5 rounded-full bg-(--color-btn-1) hover:bg-(--color-btn-1-h)">Shop Now</a>
         </div>
