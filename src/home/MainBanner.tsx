@@ -5,7 +5,7 @@ import './MainBanner.css'
 const MainBanner = () => {
   return (
     <>
-      <div className="bg-[url(./src/assets/img/custom-img-16.jpg)] bg-cover bg-center h-screen flex flex-col items-center justify-end text-white text-center py-23">
+      <div className="bg-[url(./../src/assets/img/custom-img-16.jpg)] bg-cover bg-center h-screen flex flex-col items-center justify-end text-white text-center py-23">
         <div className="flex flex-col items-center justify-center">
 
           <div className="mb-3">
